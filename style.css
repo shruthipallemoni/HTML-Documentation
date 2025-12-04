@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    grid-template-rows: repeat(5,auto);
+    height: 100vh;
+    box-sizing: border-box;
+    gap: 16px;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 1 / -1;
+    background-color: rgb(27, 27, 75);
+    color: white;
+    font-size: 10px;
+    padding: 15px;
+    line-height: 20px;
+}
+a {   /* removes underline */
+  color: white;            /* makes link text white */
+}
+.content{
+    font-size: 10px;
+}
